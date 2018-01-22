@@ -1,0 +1,30 @@
+   node {
+   stage('开发完成') { // for display purposes
+      
+      echo 'code devolp success'
+   }
+   stage('单元测试') {
+       echo 'junit test success'
+   }
+   stage('静态扫描') {
+       echo 'sona scan success'
+   }
+   stage('合并代码') {
+      echo 'merge success'
+   }
+   stage('部署测试') {
+       echo 'deploy test env success'
+   }
+   stage('接口测试') {
+       echo 'pipeline success'
+   }
+   stage('接口测试') {
+       echo 'TestNG interface test success'
+   }
+   stage('功能测试') {
+       echo 'web selenium test success'
+   }
+   stage('部署RC环境') {
+       echo 'pipeline success'
+   }
+}
